@@ -12,6 +12,7 @@ ___
 **Telegram:** @marikafikys  
 [LinkedIn](https://www.linkedin.com/in/marina-yanysheva/)
 [GitHub](https://github.com/marikafikys)
+
 ___
 
 ### About Me:
@@ -57,6 +58,7 @@ ___
 - ***React Quiz:*** https://marikafikys.github.io/react-quiz/  
   React app.  
   ***Stack:** SCSS, JavaScript, React, JSX*
+
 ___
 
 ### Education:
@@ -74,6 +76,7 @@ Professional retraining program "Frontend developer in Java Script": obtaining c
 ![certificate](assests/JS1.png)
 ![certificate](assests/JS2.png)
 ![certificate](assests/JS3.png)
+
 ___
 
 ### Courses:
@@ -95,6 +98,7 @@ ___
 - "Art of soft skills: гибкие навыки для жизни и учебы" on [Stepik](https://stepik.org/):  
   *emotional intellect, teamwork, adaptability, conflict resolution, successful self-positioning.*  
   ![certificate](assests/ss2.png)
+  
 ___
 
 ### Languages:
