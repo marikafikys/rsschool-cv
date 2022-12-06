@@ -51,16 +51,16 @@ ___
 
 ### Experience:
 #### My projects
-- ***Green Corp Landing:*** https://marikafikys.github.io/green-corp-landing/
-Layout, stylization, animation.
-***Stack:** HTML, CSS, JavaScript: Canvas, animation.*  
-- ***React Quiz:*** https://marikafikys.github.io/react-quiz/
-React app.
-***Stack:** SCSS, JavaScript, React, JSX*
+- ***Green Corp Landing:*** https://marikafikys.github.io/green-corp-landing/  
+  Layout, stylization, animation.  
+  ***Stack:** HTML, CSS, JavaScript: Canvas, animation.*  
+- ***React Quiz:*** https://marikafikys.github.io/react-quiz/  
+  React app.  
+  ***Stack:** SCSS, JavaScript, React, JSX*
 ___
 
 ### Education:
-**ANO DPO "Corporate University of Sberbank", Frontend Java Script Developer**
+**ANO DPO "Corporate University of Sberbank", Frontend Java Script Developer**  
 Professional retraining program "Frontend developer in Java Script": obtaining competencies in HTML and CSS layout, Java Script programming (training, practice, graduation project defense).
 
 - Layout of adaptive web pages using HTML and CSS;
@@ -69,7 +69,7 @@ Professional retraining program "Frontend developer in Java Script": obtaining c
 - Introduction to Webpack;
 - GIT, GitHub, GitHub Pages.
 
-**Certificates**
+**Certificates:**
 ![certificate](assests/HTML_CSS.png)
 ![certificate](assests/JS1.png)
 ![certificate](assests/JS2.png)
@@ -85,19 +85,22 @@ ___
 - "Layout simulator, plugin Emmet" on [Stepik](https://stepik.org/)
 ![certificate](assests/hs3.png)
 - "Developing web applications with Node.js" on [Stepik](https://stepik.org/) (in progress)
-- JavaScript Manual on learnjavascript.ru (in progress)
+- JavaScript Manual on [learnjavascript.ru](learnjavascript.ru) (in progress)
 - RS Schools Course "JavaScript/Front-end. Stage 0" (in progress)
   
 **Soft Skills**
-- "Leadership and team development" on [Stepik](https://stepik.org/): *personality, motivation, stress and burnout, leadership, team, conflict, facilitation.*
-![certificate](assests/ss1.png)
-- "Art of soft skills: гибкие навыки для жизни и учебы" on [Stepik](https://stepik.org/): *emotional intellect, teamwork, adaptability, conflict resolution, successful self-positioning.*
-![certificate](assests/ss2.png)
+- "Leadership and team development" on [Stepik](https://stepik.org/):  
+   *personality, motivation, stress and burnout, leadership, team, conflict, facilitation.*  
+	![certificate](assests/ss1.png)
+- "Art of soft skills: гибкие навыки для жизни и учебы" on [Stepik](https://stepik.org/):  
+  *emotional intellect, teamwork, adaptability, conflict resolution, successful self-positioning.*  
+  ![certificate](assests/ss2.png)
 ___
 
 ### Languages:
 - Russian: Native Speaker
-- English: Upper Intermediate
+- English: Upper Intermediate  
+  **Certificate:**
 [The EF Standard English Test (EF SET)](https://www.efset.org/cert/1XZ9Ze)
 ![certificate](assests/l1.png)
 ![certificate](assests/l2.png)
