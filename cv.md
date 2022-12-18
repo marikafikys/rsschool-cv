@@ -94,10 +94,10 @@ ___
 **Soft Skills**
 - "Leadership and team development" on [Stepik](https://stepik.org/):  
    *personality, motivation, stress and burnout, leadership, team, conflict, facilitation.*  
-	![certificate](asests/img/ss1.png)
+	![certificate](assets/img/ss1.png)
 - "Art of soft skills" on [Stepik](https://stepik.org/):  
   *emotional intellect, teamwork, adaptability, conflict resolution, successful self-positioning.*  
-  ![certificate](asests/img/ss2.png)
+  ![certificate](assets/img/ss2.png)
   
 ___
 
