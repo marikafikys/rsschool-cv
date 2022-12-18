@@ -1,1 +1,1 @@
-# rsschool-cv
+https://marikafikys.github.io/rsschool-cv/

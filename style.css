@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.header {
+	background-color: gray;
+	height: 50px;
+}
+
+.nav {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-list, .skills-list {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.nav-list {
+	justify-content: space-between;
+}
+
+.nav-item, .socialmedia-item {
+	list-style-type: none;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.nav-link, .socialmedia-link {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-link:hover, .socialmedia-link:hover {
+	color: rgb(255, 208, 0);
+}
+
+.main-about {
+	background-color: lightgray;
+	padding-top: 20px;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.avatar {
+	height: 270px;
+	border-radius: 8px;
+}
+
+.about {
+	margin-left: 20px;
+}
+
+h1, h3 {
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	padding: 20px 0px 10px 0px;
+	color: gray;
+	text-shadow: 1px 1px 2px black;
+}
+
+h4 {
+	padding-bottom: 10px;
+}
+
+.about-text, .contact-text {
+	margin-top: 8px;
+}
+
+.main-contact {
+	background-color: lightgray;
+	padding-bottom: 20px;
+}
+
+.skills-list {
+	justify-content: space-around;
+}
+
+.skills-item {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+pre {
+	color: gray;
+}
+
+.project-list {
+	display: flex;
+}
+
+.project-item {
+	display: flex;
+	margin: 10px 30px 10px 10px;
+}
+
+.project-icon {
+	height: 70px;
+	margin-right:20px;
+}
+
+.project-icon:hover {
+	transform: scale(1.15);
+  }
+
+.main-education, .main-courses {
+	background-color: lightgray;
+}
+
+.education-list, .languages-list {
+	padding: 15px 0;
+}
+
+.education-certificates {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.certificate {
+	width: 49%;
+	padding: 15px 0px;
+}
+
+.language-certificate {
+	width: 100%;
+	padding: 15px 0px;
+}
+
+.footer {
+	background-color: gray;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.socialmedia-list {
+	display: flex;
+	justify-content: space-around;
+	width: 100px;
+}
+
+.socialmedia-icon {
+	height: 30px;
+}
+
+.info {
+	color: white;
+}
+
+.rss-logo {
+	height: 50px;
+}
