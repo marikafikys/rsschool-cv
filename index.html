@@ -25,28 +25,90 @@
 		</div>
 	</header>
 
-	<main class="main">
-
-	</main>
+	<!-- <main class="main">
+		<div class="container"> -->
+			<section id="about" class="main-about">
+				<div class="container">
+					<div class="wrapper">
+						<div class="main-photo">
+							<img src="assets/img/photo.jpg" alt="avatar" class="avatar">
+						</div>
+						<div class="about">
+							<h1>Marina Yanysheva</h1>
+							<h3>Frontend developer</h3>
+							<h2 class="light-shadow">About me:</h2>
+							<p class="about-text">After 6 years of experience in the power industry and relay protection, in 2021 I became interested in front-end development and am very happy to develop in this direction.</p>
+							<p class="about-text">I want to serve the world by creating and maintaining optimally functional websites and applications as tools to achieve the mission and vision of companies.</p>
+							<p class="about-text">At the moment I am open to everything that will allow me to gain experience and improve my knowledge in the field of web development.</p>
+							<p class="about-text">I will be glad to cooperate! :)</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main-contact" id="contact">
+				<div class="container">
+					<h2 class="light-shadow">Contact Information:</h2>
+					<p class="contact-text"><b>Location: </b>Tbilisi, Georgia</p>
+					<p class="contact-text"><b>Phone: </b>+995 551 077 409</p>
+					<p class="contact-text"><b>E-mail: </b>m.yanysheva@inbox.ru</p>
+					<p class="contact-text"><b>Telegram: </b>@marikafikys</p>
+				</div>
+			</section>
+			<section class="main-skills" id="skills">
+				<div class="container">
+					<h2 class="dark-shadow">Skills & Proficiency:</h2>
+					<ul class="skills-list">
+						<li class="skills-item">HTML5</li>
+						<li class="skills-item">CSS3</li>
+						<li class="skills-item">JavaScript</li>
+						<li class="skills-item">ReactJS</li>
+						<li class="skills-item">Git</li>
+						<li class="skills-item">Github</li>
+					</ul>
+				</div>
+			</section>
+			<section class="code-example">
+				<div class="container">
+					<h2 class="dark-shadow">Code Example:</h2>
+					<p><b>RGB To Hex Conversion KATA from CODEWARS (5kyu):</b><br>The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.<br>Note: Your answer should always be 6 characters long, the shorthand with 3 will not work here.</p>
+					<pre>
+						<code>
+							function rgb(r, g, b){
+								let hexstring = "";
+								let rgb = [r, g, b];
+								 rgb.forEach(num => {
+									 let hexnumber = Math.min(Math.max(num, 0), 255).toString(16).toUpperCase();
+									 hexnumber.length > 1 ? hexstring += hexnumber : hexstring += "0" + hexnumber;
+								 });
+								  return hexstring;
+							 }
+						</code>
+					</pre>
+				</div>
+			</section>
+			
+			
+		<!-- </div>
+	</main> -->
 
 	<footer class="footer">
 		<div class="container">
 			<div class="footer-content">
 				<ul class="socialmedia-list">
 					<li class="socialmedia-item">
-						<a href="https://github.com/marikafikys" class="socialmedia-link" targrt="_blank">
-							<img class="socialmedia-icon" src="assests/img/github.png" alt="github">
+						<a href="https://github.com/marikafikys" class="socialmedia-link"  target="_blank">
+							<img class="socialmedia-icon" src="assets/img/github.png" alt="github">
 						</a>
 					</li>
 					<li class="socialmedia-item">
-						<a href="https://www.linkedin.com/in/marina-yanysheva/" class="socialmedia-link" targrt="_blank">
-							<img class="socialmedia-icon" src="assests/img/linkedin.png" alt="linkedin">
+						<a href="https://www.linkedin.com/in/marina-yanysheva/" class="socialmedia-link"  target="_blank">
+							<img class="socialmedia-icon" src="assets/img/linkedin.png" alt="linkedin">
 						</a>
 					</li>
 				</ul>
 				<div class="info">© 2022 by Marina Yanysheva</div>
-				<a href="https://rs.school/js/" class="rss-link" targrt="_blank">
-					<img src="assests/img/rss.png" alt="RSSchool" class="rss-logo">
+				<a href="https://rs.school/js/" class="rss-link"  target="_blank">
+					<img src="assets/img/rss.png" alt="RSSchool" class="rss-logo">
 				</a>
 			</div>
 		</div>

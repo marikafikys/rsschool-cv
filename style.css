@@ -15,16 +15,22 @@
 
 .header {
 	background-color: gray;
+	height: 50px;
 }
 
 .nav {
+	height: 100%;
 	display: flex;
 	justify-content: center;
 }
 
-.nav-list {
+.nav-list, .skills-list {
 	width: 100%;
 	display: flex;
+	align-items: center;
+}
+
+.nav-list {
 	justify-content: space-between;
 }
 
@@ -38,9 +44,64 @@
 	color: white;
 }
 
-/* .main {
+.nav-link:hover, .socialmedia-link:hover {
+	color: rgb(255, 208, 0);
+}
 
-} */
+.main-about {
+	background-color: lightgray;
+	padding-top: 20px;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.avatar {
+	height: 270px;
+	border-radius: 8px;
+}
+
+.about {
+	margin-left: 20px;
+}
+
+h1, h3 {
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	padding: 20px 0px 10px 0px;
+	color: gray;
+	text-shadow: 1px 1px 2px black;
+}
+
+.about-text, .contact-text {
+	margin-top: 8px;
+}
+
+.main-contact {
+	background-color: lightgray;
+	padding-bottom: 20px;
+}
+
+.skills-list {
+	justify-content: space-around;
+}
+
+.skills-item {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+pre {
+	color: gray;
+}
 
 .footer {
 	background-color: gray;
@@ -48,7 +109,7 @@
 
 .footer-content {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
