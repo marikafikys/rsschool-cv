@@ -4,9 +4,214 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>cv</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-	<div></div>
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section id="about" class="main-about">
+			<div class="container">
+				<div class="wrapper">
+					<div class="main-photo">
+						<img src="assets/img/photo.jpg" alt="avatar" class="avatar">
+					</div>
+					<div class="about">
+						<h1>Marina Yanysheva</h1>
+						<h3>Frontend developer</h3>
+						<h2>About me:</h2>
+						<p class="about-text">After 6 years of experience in the power industry and relay protection, in 2021 I became interested in front-end development and am very happy to develop in this direction.</p>
+						<p class="about-text">I want to serve the world by creating and maintaining optimally functional websites and applications as tools to achieve the mission and vision of companies.</p>
+						<p class="about-text">At the moment I am open to everything that will allow me to gain experience and improve my knowledge in the field of web development.</p>
+						<p class="about-text">I will be glad to cooperate! :)</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="main-contact" id="contact">
+			<div class="container">
+				<h2>Contact Information:</h2>
+				<p class="contact-text"><b>Location: </b>Tbilisi, Georgia</p>
+				<p class="contact-text"><b>Phone: </b>+995 551 077 409</p>
+				<p class="contact-text"><b>E-mail: </b>m.yanysheva@inbox.ru</p>
+				<p class="contact-text"><b>Telegram: </b>@marikafikys</p>
+			</div>
+		</section>
+		<section class="main-skills" id="skills">
+			<div class="container">
+				<h2>Skills & Proficiency:</h2>
+				<ul class="skills-list">
+					<li class="skills-item">HTML5</li>
+					<li class="skills-item">CSS3</li>
+					<li class="skills-item">JavaScript</li>
+					<li class="skills-item">ReactJS</li>
+					<li class="skills-item">Git</li>
+					<li class="skills-item">Github</li>
+				</ul>
+			</div>
+		</section>
+		<section class="code-example">
+			<div class="container">
+				<h2>Code Example:</h2>
+				<h4>RGB To Hex Conversion KATA from CODEWARS (5kyu):</h4>
+				<p>The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned. Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.<br>Note: Your answer should always be 6 characters long, the shorthand with 3 will not work here.</p>
+				<pre>
+					<code>
+						function rgb(r, g, b){
+							let hexstring = "";
+							let rgb = [r, g, b];
+								rgb.forEach(num => {
+									let hexnumber = Math.min(Math.max(num, 0), 255).toString(16).toUpperCase();
+									hexnumber.length > 1 ? hexstring += hexnumber : hexstring += "0" + hexnumber;
+								});
+								return hexstring;
+							}
+					</code>
+				</pre>
+			</div>
+		</section>
+		<section id="experience" class="main-experience">
+			<div class="container">
+				<h2>Experience: My projects</h2>
+				<ul class="project-list">
+					<li class="project-item">
+						<a href="https://marikafikys.github.io/green-corp-landing/" class="project-link"  target="_blank">
+							<img class="project-icon" src="assets/img/project.png" alt="project">
+						</a>
+						<div class="project-text">
+							<h4>Green Corp Landing</h4>
+							<p><b>Stack: </b>HTML, CSS, JavaScript: Canvas, animation</p>
+							<p>(click the picture to see the project)</p>
+						</div>
+					</li>
+					<li class="project-item">
+						<a href="https://marikafikys.github.io/react-quiz/" class="project-link"  target="_blank">
+							<img class="project-icon" src="assets/img/project.png" alt="project">
+						</a>
+						<div class="project-text">
+							<h4>React Quiz</h4>
+							<p><b>Stack: </b>SCSS, JavaScript, React, JSX</p>
+							<p>(click the picture to see the project)</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section id="education" class="main-education">
+			<div class="container">
+				<h2>Education:</h2>
+				<h4>ANO DPO "Corporate University of Sberbank", Frontend Java Script Developer</h4>  
+				<p>Professional retraining program "Frontend developer in Java Script": obtaining competencies in HTML and CSS layout, Java Script programming (training, practice, graduation project defense).</p>
+				<ul class="education-list">
+					<li>Layout of adaptive web pages using HTML and CSS;</li>
+					<li>Creation of interactive elements on the site using Java Script;</li>
+					<li>Creation of frontend applications using ReactJS;</li>
+					<li>Introduction to Webpack;</li>
+					<li>GIT, GitHub, GitHub Pages.</li>
+				</ul>
+				<h4>Certificates:</h4>
+				<div class="education-certificates">
+					<img src="assets/img/HTML_CSS.png" alt="certificate" class="certificate">
+					<img src="assets/img/JS1.png" alt="certificate" class="certificate">
+					<img src="assets/img/JS2.png" alt="certificate" class="certificate">
+					<img src="assets/img/JS3.png" alt="certificate" class="certificate">
+				</div>
+			</div>
+		</section>
+		<section id="courses" class="main-courses">
+			<div class="container">
+				<h2>Courses: Hard Skills</h2>
+				  <ul class="courses-list">
+					<li class="courses-item">
+						<h4>"Web Development for Beginners: HTML and CSS" on <a href="https://stepik.org/" target="_blank">Stepik</a></h4>
+						<img class="certificate" src="assets/img/hs1.png" alt="certificate">
+					</li>
+					<li class="courses-item">
+						<h4>"JavaScript for beginners" on <a href="https://stepik.org/" target="_blank">Stepik</a></h4>
+						<img class="certificate" src="assets/img/hs2.png" alt="certificate">
+					</li>
+					<li class="courses-item">
+						<h4>"Layout simulator, plugin Emmet" on <a href="https://stepik.org/" target="_blank">Stepik</a></h4>
+						<img class="certificate" src="assets/img/hs3.png" alt="certificate">
+					</li>
+					<li class="courses-item">
+						<h4>"Developing web applications with Node.js" on <a href="https://stepik.org/" target="_blank">Stepik</a> (in progress)</h4>
+					</li>
+					<li class="courses-item">
+						<h4>JavaScript Manual on <a href="https://learn.javascript.ru/" target="_blank">learn.javascript.ru</a> (in progress)</h4>
+					</li>
+					<li class="courses-item">
+						<h4>Course "JavaScript/Front-end. Stage 0" on <a href="https://rs.school/js-stage0/" target="_blank">RS Schools</a> (in progress)</h4>
+					</li>
+				</ul>
+				<h2>Courses: Soft Skills</h2>
+				<ul class="courses-list">
+					<li class="courses-item">
+						<h4>"Leadership and team development" on <a href="https://stepik.org/" target="_blank">Stepik</a>:</h4>
+						<p>personality, motivation, stress and burnout, leadership, team, conflict, facilitation.</p>
+						<img class="certificate" src="assets/img/ss1.png" alt="certificate">
+					</li>
+					<li class="courses-item">
+						<h4>"Art of soft skills" on <a href="https://stepik.org/" target="_blank">Stepik</a>:</h4>
+						<p>emotional intellect, teamwork, adaptability, conflict resolution, successful self-positioning.</p>
+						<img class="certificate" src="assets/img/ss2.png" alt="certificate">
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section id="languages" class="main-languages">
+			<div class="container">
+				<h2>Languages:</h2>
+				<ul class="languages-list">
+					<li class="languages-item"><b>Russian:</b> Native Speaker</li>
+					<li class="languages-item"><b>English:</b> Upper Intermediate</li>
+				</ul>
+				<h4>Certificates:</h4>
+				<div class="language-certificates">
+					<img src="assets/img/l1.png" alt="certificate" class="language-certificate">
+					<img src="assets/img/l2.png" alt="certificate" class="language-certificate">
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<ul class="socialmedia-list">
+					<li class="socialmedia-item">
+						<a href="https://github.com/marikafikys" class="socialmedia-link"  target="_blank">
+							<img class="socialmedia-icon" src="assets/img/github.png" alt="github">
+						</a>
+					</li>
+					<li class="socialmedia-item">
+						<a href="https://www.linkedin.com/in/marina-yanysheva/" class="socialmedia-link"  target="_blank">
+							<img class="socialmedia-icon" src="assets/img/linkedin.png" alt="linkedin">
+						</a>
+					</li>
+				</ul>
+				<div class="info">© 2022 by Marina Yanysheva</div>
+				<a href="https://rs.school/js/" class="rss-link"  target="_blank">
+					<img src="assets/img/rss.png" alt="RSSchool" class="rss-logo">
+				</a>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

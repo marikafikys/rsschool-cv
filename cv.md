@@ -1,7 +1,7 @@
 ___
 # Marina Yanysheva
 ### *Frontend developer*
-<img src="assests/photo.jpg" width="250">
+<img src="assests/img/photo.jpg" width="250">
 
 ___
 
@@ -72,21 +72,21 @@ Professional retraining program "Frontend developer in Java Script": obtaining c
 - GIT, GitHub, GitHub Pages.
 
 **Certificates:**
-![certificate](assests/HTML_CSS.png)
-![certificate](assests/JS1.png)
-![certificate](assests/JS2.png)
-![certificate](assests/JS3.png)
+![certificate](assests/img/HTML_CSS.png)
+![certificate](assests/img/JS1.png)
+![certificate](assests/img/JS2.png)
+![certificate](assests/img/JS3.png)
 
 ___
 
 ### Courses:
 **Hard Skills**
 - "Web Development for Beginners: HTML and CSS" on [Stepik](https://stepik.org/)
-![certificate](assests/hs1.png)
+![certificate](assests/img/hs1.png)
 - "JavaScript for beginners" on [Stepik](https://stepik.org/)
-![certificate](assests/hs2.png)
+![certificate](assests/img/hs2.png)
 - "Layout simulator, plugin Emmet" on [Stepik](https://stepik.org/)
-![certificate](assests/hs3.png)
+![certificate](assests/img/hs3.png)
 - "Developing web applications with Node.js" on [Stepik](https://stepik.org/) (in progress)
 - JavaScript Manual on [learnjavascript.ru](learnjavascript.ru) (in progress)
 - RS Schools Course "JavaScript/Front-end. Stage 0" (in progress)
@@ -94,10 +94,10 @@ ___
 **Soft Skills**
 - "Leadership and team development" on [Stepik](https://stepik.org/):  
    *personality, motivation, stress and burnout, leadership, team, conflict, facilitation.*  
-	![certificate](assests/ss1.png)
+	![certificate](assests/img/ss1.png)
 - "Art of soft skills: гибкие навыки для жизни и учебы" on [Stepik](https://stepik.org/):  
   *emotional intellect, teamwork, adaptability, conflict resolution, successful self-positioning.*  
-  ![certificate](assests/ss2.png)
+  ![certificate](assests/img/ss2.png)
   
 ___
 
@@ -106,5 +106,5 @@ ___
 - English: Upper Intermediate  
   **Certificate:**
 [The EF Standard English Test (EF SET)](https://www.efset.org/cert/1XZ9Ze)
-![certificate](assests/l1.png)
-![certificate](assests/l2.png)
+![certificate](assests/img/l1.png)
+![certificate](assests/img/l2.png)
