@@ -37,6 +37,7 @@
 .nav-item, .socialmedia-item {
 	list-style-type: none;
 	padding: 10px;
+	font-size: 20px;
 }
 
 .nav-link, .socialmedia-link {
@@ -81,6 +82,10 @@ h2 {
 	text-shadow: 1px 1px 2px black;
 }
 
+h4 {
+	padding-bottom: 10px;
+}
+
 .about-text, .contact-text {
 	margin-top: 8px;
 }
@@ -101,6 +106,48 @@ h2 {
 
 pre {
 	color: gray;
+}
+
+.project-list {
+	display: flex;
+}
+
+.project-item {
+	display: flex;
+	margin: 10px 30px 10px 10px;
+}
+
+.project-icon {
+	height: 70px;
+	margin-right:20px;
+}
+
+.project-icon:hover {
+	transform: scale(1.15);
+  }
+
+.main-education, .main-courses {
+	background-color: lightgray;
+}
+
+.education-list, .languages-list {
+	padding: 15px 0;
+}
+
+.education-certificates {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.certificate {
+	width: 49%;
+	padding: 15px 0px;
+}
+
+.language-certificate {
+	width: 100%;
+	padding: 15px 0px;
 }
 
 .footer {
