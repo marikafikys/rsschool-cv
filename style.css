@@ -1,4 +1,71 @@
-.body {
-	margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.header {
+	background-color: gray;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-list {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-item, .socialmedia-item {
+	list-style-type: none;
+	padding: 10px;
+}
+
+.nav-link, .socialmedia-link {
+	text-decoration: none;
+	color: white;
+}
+
+/* .main {
+
+} */
+
+.footer {
+	background-color: gray;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.socialmedia-list {
+	display: flex;
+	justify-content: space-around;
+	width: 100px;
+}
+
+.socialmedia-icon {
+	height: 30px;
+}
+
+.info {
+	color: white;
+}
+
+.rss-logo {
+	height: 50px;
 }
