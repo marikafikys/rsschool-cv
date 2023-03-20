@@ -6,10 +6,10 @@ ___
 ___
 
 ### Contact Information:
-**Location:** Tbilisi, Georgia  
-**Phone:** +995 551 077 409  
-**E-mail:** m.yanysheva@inbox.ru  
-**Telegram:** @marikafikys  
+**Location:** Tbilisi, Georgia
+**Phone:** +995 551 077 409
+**E-mail:** m.yanysheva@inbox.ru
+**Telegram:** @marikafikys
 [LinkedIn](https://www.linkedin.com/in/marina-yanysheva/)
 [GitHub](https://github.com/marikafikys)
 
@@ -21,7 +21,7 @@ I want to serve the world by creating and maintaining optimally functional websi
 
 At the moment I am open to everything that will allow me to gain experience and improve my knowledge in the field of web development.
 
-I will be glad to cooperate! :)
+I will be glad to cooperate!
 
 ___
 
@@ -45,24 +45,24 @@ function rgb(r, g, b){
 		 let hexnumber = Math.min(Math.max(num, 0), 255).toString(16).toUpperCase();
 		 hexnumber.length > 1 ? hexstring += hexnumber : hexstring += "0" + hexnumber;
 	 });
-	  return hexstring;  
+	  return hexstring;
  }
 ```
 ___
 
 ### Experience:
 #### My projects
-- ***Green Corp Landing:*** https://marikafikys.github.io/green-corp-landing/  
-  Layout, stylization, animation.  
-  ***Stack:** HTML, CSS, JavaScript: Canvas, animation.*  
-- ***React Quiz:*** https://marikafikys.github.io/react-quiz/  
-  React app.  
+- ***Green Corp Landing:*** https://marikafikys.github.io/green-corp-landing/
+  Layout, stylization, animation.
+  ***Stack:** HTML, CSS, JavaScript: Canvas, animation.*
+- ***React Quiz:*** https://marikafikys.github.io/react-quiz/
+  React app.
   ***Stack:** SCSS, JavaScript, React, JSX*
 
 ___
 
 ### Education:
-**ANO DPO "Corporate University of Sberbank", Frontend Java Script Developer**  
+**ANO DPO "Corporate University of Sberbank", Frontend Java Script Developer**
 Professional retraining program "Frontend developer in Java Script": obtaining competencies in HTML and CSS layout, Java Script programming (training, practice, graduation project defense).
 
 - Layout of adaptive web pages using HTML and CSS;
@@ -90,20 +90,20 @@ ___
 - "Developing web applications with Node.js" on [Stepik](https://stepik.org/) (in progress)
 - JavaScript Manual on [learnjavascript.ru](learnjavascript.ru) (in progress)
 - RS Schools Course "JavaScript/Front-end. Stage 0" (in progress)
-  
+
 **Soft Skills**
-- "Leadership and team development" on [Stepik](https://stepik.org/):  
-   *personality, motivation, stress and burnout, leadership, team, conflict, facilitation.*  
+- "Leadership and team development" on [Stepik](https://stepik.org/):
+   *personality, motivation, stress and burnout, leadership, team, conflict, facilitation.*
 	![certificate](assets/img/ss1.png)
-- "Art of soft skills" on [Stepik](https://stepik.org/):  
-  *emotional intellect, teamwork, adaptability, conflict resolution, successful self-positioning.*  
+- "Art of soft skills" on [Stepik](https://stepik.org/):
+  *emotional intellect, teamwork, adaptability, conflict resolution, successful self-positioning.*
   ![certificate](assets/img/ss2.png)
-  
+
 ___
 
 ### Languages:
 - Russian: Native Speaker
-- English: Upper Intermediate  
+- English: Upper Intermediate
   **Certificate:**
 [The EF Standard English Test (EF SET)](https://www.efset.org/cert/1XZ9Ze)
 ![certificate](assets/img/l1.png)
