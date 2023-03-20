@@ -78,9 +78,9 @@
 						function rgb(r, g, b){
 							let hexstring = "";
 							let rgb = [r, g, b];
-								rgb.forEach(num =&#8250 {
+								rgb.forEach(num =&gt; {
 									let hexnumber = Math.min(Math.max(num, 0), 255).toString(16).toUpperCase();
-									hexnumber.length &#8250 1 ? hexstring += hexnumber : hexstring += "0" + hexnumber;
+									hexnumber.length &gt; 1 ? hexstring += hexnumber : hexstring += "0" + hexnumber;
 								});
 								return hexstring;
 							}
