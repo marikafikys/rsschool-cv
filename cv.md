@@ -25,7 +25,7 @@ I will be glad to cooperate! :)
 
 ___
 
-### Skills & Proficiency:
+### Skills And Proficiency:
 - HTML5
 - CSS3
 - JavaScript
